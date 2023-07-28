@@ -1,0 +1,76 @@
+Lecture 33
+project name -- Job portal
+
+default master
+jobseekermaster
+jobrecruiter master
+Adminmaster
+
+header/footer same in all master. only change in navigation bar
+
+two registration form
+job seeker reg form
+job recrter form
+
+
+seeker pe details.
+self mind.
+for ex. textbox
+name txt
+gender radio
+qual dropdw
+job profile dropdm java,c#
+resume upload
+photo upload
+email id txt
+passowrd. txt
+
+CRUD : Reg,dislay,edit,update,delete.
+
+
+
+Job recruiter Form
+
+Company details
+Fields--
+
+Comp name txtbx
+comp URL www.hcl.com
+addres txtbx
+HR name
+HR COntact
+HR EMail
+HR Passwrd
+
+CRUD : Reg,dislay,edit,update,delete.
+
+Default master in both REG Form.
+
+Only one LogIn Page.
+dropdown top pe -- job seeker/job recruiter static value 1,2
+EMail id
+password
+login button
+label
+
+Login.cs
+btnclick_insert()
+if(dropdownlist.selected value==1){
+job recruiter login code
+}
+else if(dropdownlist.selected value==2){
+job seekerlogin code
+}
+
+Home page 2
+Jobseeker
+jobrecruiter
+
+wlecome "Name"
+
+welcome "Company"
+
+1 logout
+
+
+
